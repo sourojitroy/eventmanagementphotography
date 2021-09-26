@@ -1,0 +1,14 @@
+.header-bg{
+    background-color: #1195F5;
+    height: 680px;
+}
+@media (max-width: 720px) {
+    .header-bg{
+        height: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .header-bg{
+        clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%); 
+    }
+}

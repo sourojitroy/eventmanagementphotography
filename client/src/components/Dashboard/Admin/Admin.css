@@ -1,0 +1,16 @@
+h6,.logo{
+    cursor: pointer;
+}
+
+.screen{
+    border-right: 1px solid lightslategray;
+}
+@media (max-width: 720px) {
+    .screen{
+        display: flex;
+    }
+    .screen h6{
+        font-size: 14px;
+        margin-left: auto;
+    }
+}
